@@ -1,6 +1,5 @@
 //const live2d_path = "https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/";
 const live2d_path = "https://live2d.icucloud.vip/widget/";
-
 function loadExternalResource(url, type) {
 	return new Promise((resolve, reject) => {
 		let tag;
@@ -37,7 +36,4 @@ if (screen.width >= 768) {
 		});
 	});
 }
-
-console.log(`
-Alist美化来自咸鱼：羊城忙碌的毛肚
-`);
+console.log(`Alist美化来自咸鱼：羊城忙碌的毛肚`);
