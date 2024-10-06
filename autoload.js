@@ -34,4 +34,3 @@ if (screen.width >= 768) {
 		});
 	});
 }
-console.log(`Alist美化来自咸鱼：羊城忙碌的毛肚`);
