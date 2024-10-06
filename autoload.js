@@ -3,7 +3,6 @@ const live2d_path = "https://live2d.icucloud.vip/widget/";
 function loadExternalResource(url, type) {
 	return new Promise((resolve, reject) => {
 		let tag;
-
 		if (type === "css") {
 			tag = document.createElement("link");
 			tag.rel = "stylesheet";
@@ -20,7 +19,6 @@ function loadExternalResource(url, type) {
 		}
 	});
 }
-
 if (screen.width >= 768) {
 	Promise.all([
 		loadExternalResource(live2d_path + "waifu.css", "css"),
