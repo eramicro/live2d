@@ -43,7 +43,6 @@ flower_footer_num = '1';
   
 let flower_footer_append_html = document.getElementById("root").getElementsByClassName("footer")[0].getElementsByTagName("div")[0]; 
 flower_footer_append_code = ''; 
-flower_footer_append_code += `<a class="flower_footer_codea" href=""  target="_blank" >ICUCLOUD</a>`; 
 flower_footer_append_code += `<span>|</span>`; 
 flower_footer_append_code += flower_footer_append_html.innerHTML; 
 flower_footer_append_html.innerHTML = flower_footer_append_code; 
