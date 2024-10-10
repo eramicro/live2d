@@ -23,7 +23,7 @@ function flower_html() {
         let flower_header_left = document.getElementById("root").getElementsByClassName("header")[0].getElementsByClassName("header-left")[0];
         flower_header_append_code += flower_header_left.innerHTML; 
 flower_header_append_code += `<div class="flower_header_self">`; 
-flower_header_append_code += `<h3>Alist</h3>`; 
+flower_header_append_code += `<h3>遇见你的分享</h3>`; 
 flower_header_append_code += `<div class="flower_header_self_headimg">`; 
 flower_header_append_code += `<img src="https://live2d.json.cloudns.org/china.png">`; 
 flower_header_append_code += `</div>`; 
