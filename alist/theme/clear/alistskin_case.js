@@ -25,7 +25,7 @@ function flower_html() {
 flower_header_append_code += `<div class="flower_header_self">`; 
 flower_header_append_code += `<h3>Alist</h3>`; 
 flower_header_append_code += `<div class="flower_header_self_headimg">`; 
-flower_header_append_code += `<img src="https://start.icucloud.vip/diy/china.png">`; 
+flower_header_append_code += `<img src="https://live2d.json.cloudns.org/china.png">`; 
 flower_header_append_code += `</div>`; 
 flower_header_append_code += `</div>`; 
 flower_header_append_code += `<div class="flower_header_dictum">`; 
