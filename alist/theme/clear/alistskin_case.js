@@ -114,7 +114,7 @@ setTimeout(function(){
     console.clear("");
     
     if (note_true) {
-        var flower_console = ["icucloud-云盘美化包","https://www.icucloud.vip/"];
+        var flower_console = ["Alist美化","咸鱼：羊城忙碌的毛肚"];
         console.log('%c '+flower_console[0]+' %c '+flower_console[1]+' ','padding: 5px 10px; color: #FFF; background-color:#282828; border-radius: 2px 0px 0px 2px;','padding: 5px 10px;color: #FFF; background-image: linear-gradient(to left,#00f2fe,#66ccff); border-radius: 0px 2px 2px 0px;');
     }
     
