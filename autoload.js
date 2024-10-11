@@ -28,8 +28,6 @@ if (screen.width >= 768) {
 		initWidget({
 			waifuPath: live2d_path + "waifu-tips.json",
 			apiPath: "https://live2d.icucloud.vip/model/",
-		      //apiPath: "https://live2dapi.teriri.cc/",
-		      //apiPath: "https://api.zsq.im/live2d/",
 			tools: ["hitokoto", "asteroids", "switch-model", "switch-texture", "photo", "quit"]
 		});
 	});
