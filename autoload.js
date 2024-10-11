@@ -1,3 +1,4 @@
+//未授权过度调用会封锁IP，需要请闲鱼联系：羊城忙碌的毛肚
 const live2d_path = "https://live2d.icucloud.vip/widget/";
 function loadExternalResource(url, type) {
 	return new Promise((resolve, reject) => {
